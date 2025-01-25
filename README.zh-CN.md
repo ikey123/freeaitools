@@ -1,15 +1,3 @@
-# 开源Tap4 AI Web UI
-
-这是一个由[Tap4 AI工具导航站](https://tap4.ai)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己的AI导航站，
-收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对NextJs有兴趣的学习者，
-欢迎大家fork和star。
-
-[English](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | 简体中文
-
-## 请在Product Hunt支持下Tap4 AI
-
-<a href="https://www.producthunt.com/posts/ai-tools-directory-by-tap4-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai&#0045;tools&#0045;directory&#0045;by&#0045;tap4&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=464357&theme=light" alt="AI&#0032;Tools&#0032;Directory&#0032;by&#0032;Tap4&#0032;AI - Open&#0045;source&#0032;AI&#0032;navigation&#0032;&#0038;&#0032;discovery&#0032;with&#0032;multi&#0045;language | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
 ## v2.0.0版本更新说明
 
 - AI站点数据采用supabase数据库存储
@@ -42,7 +30,6 @@
 
 ## 感谢关注链接
 
-欢迎关注我们的Twitter: https://x.com/tap4ai
 
 如果觉得项目对你有帮助，欢迎请我喝杯咖啡：
 
