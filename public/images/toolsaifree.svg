@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- AI光环效果 -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#15141A;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- 发光背景圆 -->
+  <circle cx="24" cy="24" r="22" fill="url(#glow)"/>
+  
+  <!-- T字母主体 -->
+  <path d="M14 16h20M24 16v20" 
+        stroke="#FFFFFF" 
+        stroke-width="4" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- 装饰性圆点，代表AI节点 -->
+  <circle cx="14" cy="16" r="2" fill="#FFFFFF"/>
+  <circle cx="34" cy="16" r="2" fill="#FFFFFF"/>
+  <circle cx="24" cy="36" r="2" fill="#FFFFFF"/>
+  
+  <!-- 连接线动效 -->
+  <path d="M14 16L24 36M34 16L24 36" 
+        stroke="#FFFFFF" 
+        stroke-width="0.5" 
+        stroke-opacity="0.3"
+        stroke-dasharray="2 2"/>
+</svg> 

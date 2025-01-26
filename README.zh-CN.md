@@ -1,11 +1,11 @@
 ## v2.0.0版本更新说明
 
 - AI站点数据采用supabase数据库存储
-- 对接Tap4 AI爬虫项目，支持提交和收录全自动
+- 对接Tools AI Free爬虫项目，支持提交和收录全自动
 - 支持简易的分类和搜索
 
 注：如果你对数据库不熟悉，或者担心和v1.0.0版本的兼容问题，请点击切
-到[v1.0.0分支](https://github.com/6677-ai/tap4-ai-webui/tree/v1.0.0)。
+到[v1.0.0分支](https://github.com/ikey123/freeaitools/tree/v1.0.0)。
 
 ## 最新功能介绍
 
@@ -26,23 +26,23 @@
 
 ## 前端页面截图
 
-![tai4-ai](./public/images/tap4ai.zh-CN.png)
+![toolsaifree](./public/images/toolsaifree.zh-CN.png)
 
 ## 感谢关注链接
 
 
 如果觉得项目对你有帮助，欢迎请我喝杯咖啡：
 
-<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/toolsaifree" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-如果你对项目有兴趣，欢迎添加我微信: helloleo2023, 备注: "tap4 ai开源"，也可以扫描二维码:
-![tap4-ai-wx](./public/images/tap4-ai-wechat.jpg)
+如果你对项目有兴趣，欢迎添加我微信: helloleo2023, 备注: "toolsaifree开源"，也可以扫描二维码:
+![toolsaifree-wx](./public/images/toolsaifree-wechat.jpg)
 
 ## 部署说明
 
-### 部署Tap4 AI Crawler
+### 部署Tools AI Free Crawler
 
-具体见[Tap4 AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) 部署完成后，可以使用平台提供的域名或者自定义域名，作
+具体见[Tools AI Free Crawler](https://github.com/ikey123/freeaitools-crawler) 部署完成后，可以使用平台提供的域名或者自定义域名，作
 为生成AI工具网页内容的API接口(示例：https://{crawler_domain}/site/crawl, {crawler_domain}为你的具体域名)，**需要配置到
 env环境变量CRAWLER_API**中
 
@@ -54,20 +54,20 @@ env环境变量CRAWLER_API**中
 
 ### 在Vercel上部署 **（别忘了设置环境变量）**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,CRAWLER_API,CRAWLER_API_KEY,CRON_AUTH_KEY,SUBMIT_AUTH_KEY&project-name=tap4-ai)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fikey123%2Ffreeaitools.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,CRAWLER_API,CRAWLER_API_KEY,CRON_AUTH_KEY,SUBMIT_AUTH_KEY&project-name=toolsaifree)
 
 环境变量参考如下: **注：环境变量key必须添加，必须正确的key包括
 NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY，其他可填写随意字符串**
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://toolsaifree.com"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # Contact email at the bottom
-CONTACT_US_EMAIL="contact@tap4.ai"
+CONTACT_US_EMAIL="panleipanlei.qq@gmail.com"
 
 # Supabase database URL and key
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co" NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
@@ -105,7 +105,7 @@ SUBMIT_AUTH_KEY="xxxx"
 #### （1）克隆此项目
 
 ```sh
-git clone https://github.com/6677-ai/tap4-ai-webui.git
+git clone https://github.com/ikey123/freeaitools.git
 ```
 
 ### 创建Supabase数据库及执行sql脚本
@@ -123,7 +123,7 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY，�
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://toolsaifree.com"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX"
@@ -131,7 +131,7 @@ GOOGLE_TRACKING_ID="G-XXXXXXX"
 GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # Contact email at the bottom
-CONTACT_US_EMAIL="contact@tap4.ai"
+CONTACT_US_EMAIL="panleipanlei.qq@gmail.com"
 
 # Supabase database URL and key
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
@@ -184,16 +184,16 @@ pnpm dev
 
 ### 如何获得初始化需要的AI工具列表？
 
-可以通过Tap4 AI开源的来自其他导航站的13000+个AI工具列表导入(支持sql和csv)：
-[AI Source List](https://github.com/6677-ai/tap4-ai-webui/blob/main/ai_source_list)
+可以通过Tools AI Free开源的来自其他导航站的13000+个AI工具列表导入(支持sql和csv)：
+[AI Source List](https://github.com/ikey123/freeaitools/blob/main/ai_source_list)
 
-## 打算在 Tap4.ai 上提交您的网站？
+## 打算在 Toolsaifree.com 上提交您的网站？
 
-请打开：[Tap4 AI](https://tap4.ai/submit)
+请打开：[Tools AI Free](https://toolsaifree.com/submit)
 
-### 打算将您的网站添加到我们的 `/startup` 页面？
+## 联系我们
 
-- 在这里打开一个问题：[TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
-- 给我们发邮件：[contact@tap4.ai](mailto:contact@tap4.ai)
+- 在这里打开一个问题：[Tools-AI-Free-Directory](https://github.com/ikey123/Tools-AI-Free-Directory/issues)
+- 给我们发邮件：[panleipanlei.qq@gmail.com](mailto:panleipanlei.qq@gmail.com)
 
 
