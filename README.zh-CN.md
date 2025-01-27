@@ -1,11 +1,3 @@
-## v2.0.0版本更新说明
-
-- AI站点数据采用supabase数据库存储
-- 对接Tools AI Free爬虫项目，支持提交和收录全自动
-- 支持简易的分类和搜索
-
-注：如果你对数据库不熟悉，或者担心和v1.0.0版本的兼容问题，请点击切
-到[v1.0.0分支](https://github.com/ikey123/freeaitools/tree/v1.0.0)。
 
 ## 最新功能介绍
 
@@ -35,8 +27,7 @@
 
 <a href="https://www.buymeacoffee.com/toolsaifree" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-如果你对项目有兴趣，欢迎添加我微信: helloleo2023, 备注: "toolsaifree开源"，也可以扫描二维码:
-![toolsaifree-wx](./public/images/toolsaifree-wechat.jpg)
+
 
 ## 部署说明
 

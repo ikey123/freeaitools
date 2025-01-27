@@ -7,9 +7,6 @@ suitable for learners interested in NextJs. Everyone is welcome to fork and star
 
 [Simplified Chinese](https://github.com/ikey123/freeaitools/blob/main/README.zh-CN.md) | English
 
-## Support Tools AI Free in Product Hunt
-
-<a href="https://www.producthunt.com/posts/ai-tools-directory-by-toolsaifree?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai&#0045;tools&#0045;directory&#0045;by&#0045;toolsaifree" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=464357&theme=light" alt="AI&#0032;Tools&#0032;Directory&#0032;by&#0032;Tools&#0032;AI&#0032;Free - Open&#0045;source&#0032;AI&#0032;navigation&#0032;&#0038;&#0032;discovery&#0032;with&#0032;multi&#0045;language | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 ## Version 2.0.0 Update Notes
 
@@ -43,13 +40,11 @@ click to switch to the [version 1.0.0 branch](https://github.com/ikey123/freeait
 
 ## Follow and Support Links
 
-Please follow our Twitter: https://x.com/toolsaifree
 
 If you find the project helpful, please consider buying me a coffee:
 
 <a href="https://www.buymeacoffee.com/toolsaifree" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-If you are interested in the project, please add my WeChat: helloleo2023, note: "toolsaifree open source"
 
 ## Deployment Instructions
 
