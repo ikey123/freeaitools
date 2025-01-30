@@ -1,4 +1,3 @@
-
 ## 最新功能介绍
 
 - 支持AI工具列表展示
@@ -22,12 +21,9 @@
 
 ## 感谢关注链接
 
-
 如果觉得项目对你有帮助，欢迎请我喝杯咖啡：
 
-<a href="https://www.buymeacoffee.com/toolsaifree" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-
+<a href="https://ko-fi.com/toolsaifree" target="_blank"><img src="https://storage.ko-fi.com/cdn/kofi4.png?v=3" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## 部署说明
 
