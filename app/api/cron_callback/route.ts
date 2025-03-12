@@ -12,6 +12,13 @@ import { createClient } from '@/db/supabase/client';
 // insert web_nav table (tags <- tags[0] or 'other')
 // update submit table status
 
+// 主要功能：爬虫回调接口，处理爬虫返回的数据
+// 处理流程：
+// 1. 验证回调请求的权限
+// 2. 接收爬虫采集的网站数据
+// 3. 保存到web_navigation表
+// 4. 更新submit表的状态
+
 export async function POST(req: NextRequest) {
   try {
     // Get Authorization

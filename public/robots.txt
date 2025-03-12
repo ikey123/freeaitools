@@ -2,3 +2,11 @@ Sitemap: https://www.toolsaifree.com/sitemap.xml
 
 User-agent: *
 Allow: /
+Disallow: /jp/
+Disallow: /de/
+Disallow: /es/
+Disallow: /fr/
+Disallow: /pt/
+Disallow: /ru/
+Disallow: /cn/
+Disallow: /tw/

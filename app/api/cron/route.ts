@@ -14,6 +14,13 @@ import crawler from './crawler';
 // insert web_nav table (tags <- tags[0] or 'other')
 // update submit table status
 
+// 主要功能：定时任务接口，用于处理未处理的网站提交
+// 处理流程：
+// 1. 验证请求权限
+// 2. 获取未处理的提交记录
+// 3. 调用爬虫服务
+// 4. 等待回调处理结果
+
 export async function POST(req: NextRequest) {
   try {
     // 获取请求头中的 Authorization
@@ -32,10 +39,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid token' }, { status: 401 });
     }
 
+    // 创建数据库连接
     const supabase = createClient();
 
     console.log('supabase connected!');
 
+    // 并行获取分类列表和待处理的提交
+    // categoryList: 用于提供给爬虫的可用分类
+    // submitList: 获取状态为0（未处理）的提交，按特征和时间排序
     const [{ data: categoryList, error: categoryListError }, { data: submitList, error: submitListError }] =
       await Promise.all([
         supabase.from('navigation_category').select(),

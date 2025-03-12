@@ -43,7 +43,7 @@ click to switch to the [version 1.0.0 branch](https://github.com/ikey123/freeait
 
 If you find the project helpful, please consider buying me a coffee:
 
-<a href="https://ko-fi.com/toolsaifree" target="_blank"><img src="https://ko-fi.com/imgs/ko-fi-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://ko-fi.com/toolsaifree" target="_blank"><img src="https://storage.ko-fi.com/cdn/kofi4.png?v=3" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 
 ## Deployment Instructions
